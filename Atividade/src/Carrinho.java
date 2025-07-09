@@ -17,6 +17,12 @@ public class Carrinho {
         }
     }
 
+    public void mostrarProduto(Produto produto){ // Dá para fazer separadamente - MOSTRARPRODUTO NÃO UTILIZADO NESTE CÓDIGO
+        for (Produto produtoMostrar : produtos) {
+            System.out.println("Lista de compra: " + produtoMostrar);
+        }
+    }
+
     //Adição de dados num Array/List
     public double calcularTotal() {
         double total = 0.0;

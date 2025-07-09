@@ -21,7 +21,6 @@ public class Main {
 
         carrinho.adicionarProduto(p2);
         carrinho.adicionarProduto(p1);
-        minhaLoja.realizarCompra(carrinho.calcularTotal());
 
         //Comandos para as classes
 

@@ -23,7 +23,7 @@ public class Produto {
         return nome;
     }
 
-    //Necessário para Chamar a lista de compras no adicionar conta
+    //Necessário para Chamar a lista de compras no adicionarProduto - Carrinho
     @Override
     public String toString() {
         return nome + " - R$" + String.format("%.2f", preco);
